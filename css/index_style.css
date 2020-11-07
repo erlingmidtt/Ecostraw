@@ -8,6 +8,7 @@
     margin-bottom: 15%;
     margin-top: 2%;
 }
+/*hoved banner*/
 .promo_wrapper1{
     display: flex;
     flex-direction: row;
@@ -36,6 +37,7 @@ grid-area: grid1;
 align-items: center;
 margin-left: 5%;
 align-self: center;
+cursor: default;
 }
 .link1{
     grid-area: grid2;
@@ -64,12 +66,13 @@ align-self: center;
     font-size: 2vw;
 }
 .slogan{
-    color: rgb(48, 48, 48);
+    color: rgb(77, 77, 77);
     font-size: 1vw;
     margin-top: -5%;
 }
-    /*/promo1*/
-/*promo2*/
+    /*/hoved banner*/
+    
+/*hot or cold banner*/
 .promo_wrapper2{
     display: flex;
     flex-direction: row;
