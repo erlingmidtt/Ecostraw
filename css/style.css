@@ -17,7 +17,7 @@ nav {
     align-items: center;
     width: 100%;
   }
-  nav a {
+nav a {
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -27,23 +27,37 @@ nav {
     color: #FFFEFB;
     padding: 2px;
     transition: all 0.3s ease-out;
-  }
-  nav a:hover{
+    text-transform: uppercase;
+}
+nav a:hover{
     color: rgb(180, 180, 180);
     transition: all 0.1s ease-in;
     border-bottom: 1px solid rgb(180, 180, 180);
   }
-  .active {
+.active {
     border-bottom: 1px solid #FFFEFB;
   }
-  .logo {
+.logo {
       text-transform: uppercase;
       color: white;
       cursor: pointer;
   }
-     /*/nav*/
-  
-  /*footer*/
+    /*/nav*/
+
+/*main*/
+main{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-bottom: 15%;
+      margin-top: 2%;
+}
+    /*/main*/
+
+/*footer*/
   footer {
     text-align: center;
     background-color: #00978b;
