@@ -6,7 +6,7 @@
     box-shadow: 3px 0px 5px lightgrey;
 }
 .inner{
-    width: 80%;
+    width: 75%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +36,7 @@ input[type=text],[type=email], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: none;
+    font-size: 15px;
   }
 input[type=text],[type=email] {
     border-bottom: 1px solid #ccc;
@@ -44,6 +45,7 @@ input[type=text],[type=email] {
     border-left: none;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 15px;
 }
 .send{
     font-family: helvetica, sans-serif;

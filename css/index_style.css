@@ -12,7 +12,7 @@
 
 .img {
     width: 65%;
-    height: auto;
+    height: 100%;
 }
 .inner_wrapper1{
     width: 35%;
@@ -74,7 +74,7 @@ cursor: default;
 }
 .img_promo2{
     width: 20%;
-    height: auto;
+    height: 100%;
 }
 .center_div{
     width: 60%;
