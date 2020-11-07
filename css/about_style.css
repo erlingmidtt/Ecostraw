@@ -1,7 +1,7 @@
 .backdrop{
     background-color: #ffffff;
     width: 60%;
-    height: 700px;
+    height: 900px;
     align-items: center;
     box-shadow: 3px 0px 5px lightgrey;
 }
@@ -54,4 +54,9 @@ thead th{
 .table a:hover{
     color: black;
     transition: 0.2s all ease-in;
+}
+.contact-us p, a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black
 }
