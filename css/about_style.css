@@ -60,3 +60,6 @@ thead th{
     font-weight: bold;
     color: black
 }
+.contact-us:hover{
+    color: rgb(77, 77, 77)
+}
