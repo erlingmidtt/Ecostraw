@@ -1,7 +1,7 @@
 .backdrop{
     background-color: #ffffff;
     width: 60%;
-    height: 1300px;
+    height: 700px;
     align-items: center;
     box-shadow: 3px 0px 5px lightgrey;
 }
@@ -15,12 +15,13 @@
 .header{
 font-size: 2vw;
 text-transform: uppercase;
+cursor: default;
 }
 .header2{
 margin-top: 10%;
 font-size: 1.3vw;
 text-transform: uppercase;
-color: rgb(77, 77, 77);
+color: rgb(0, 0, 0);
 border-bottom: 2px solid rgb(77, 77, 77);
 border-radius: .5%;
 }
@@ -35,12 +36,22 @@ color: rgb(77, 77, 77)
     border-collapse: collapse;
 }
 thead th{
-
+    text-transform: uppercase;
     border-bottom: 2px solid black;
 }
-.retailers tbody, td {
-    color: rgb (77, 77, 77);
+.table tbody, td{
+    color: rgb(77, 77, 77);
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid rgb(77, 77, 77);
+    transition: 0.2s all ease-out;
+}
+.table a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    transition: 0.2s all ease-out;
+}
+.table a:hover{
+    color: black;
+    transition: 0.2s all ease-in;
 }

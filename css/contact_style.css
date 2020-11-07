@@ -1,0 +1,64 @@
+.backdrop{
+    background-color: #ffffff;
+    width: 60%;
+    height: 1300px;
+    align-items: center;
+    box-shadow: 3px 0px 5px lightgrey;
+}
+.inner{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.header{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    cursor: default;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea, select{
+    border: 1px solid #ccc;
+    font-family: Helvetica, sans-serif;
+}
+input[type=text],[type=email], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border-bottom: 1px solid #ccc; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+input[type=text],[type=email] {
+    border-bottom: 1px solid #ccc;
+    border-top: none;  
+    border-right: none;
+    border-left: none;
+    font-family: Helvetica, sans-serif;
+}
+.send{
+    font-family: helvetica, sans-serif;
+    border: none;
+    font-size: 1vw;
+    text-transform: uppercase;
+    background-color: rgb(77, 77, 77);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: 0.1s all ease-out;
+}
+.send:hover{
+    background-color: rgb(97, 97, 97);
+    transition: 0.1s all ease-in;
+}
