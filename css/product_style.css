@@ -32,7 +32,7 @@
     margin-left: 2%;
     font-size: 1.3vw;
     font-weight: 700;
-    color: rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
 }
 .price{
     grid-area: grid3;
@@ -41,7 +41,7 @@
     margin-right: 3%;
     font-size: 1.3vw;
     font-weight: 700;
-    color: rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
 }
 .product_title{
     font-size: 2vw;
@@ -51,7 +51,7 @@
     color: rgb(77, 77, 77);
 }
 .underline{
-    border-bottom: 3px solid rgb(77, 77, 77);
+    border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 .promo_wrapper2{
@@ -80,16 +80,14 @@
     cursor: default;
 }
 .hot{
-    background-color: red;
-    color: #ffffff;
+    color: red;
     text-transform: uppercase;
     padding-left: 3px;
     padding-right: 3px;
     
 }
 .cold{
-    background-color: aqua;
-    color: #ffffff;
+    color: rgb(0, 255, 255);
     text-transform: uppercase;
     padding-left: 3px;
     padding-right: 3px;
