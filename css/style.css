@@ -33,8 +33,9 @@ nav a {
     transition: all 0.3s ease-out;
 }
 nav a:hover{
-    transition: all 0.2s ease-in;
-    border-bottom: 1px solid #FFFEFB;
+    transition: all 0.3s ease-in;
+    color: #dadada;
+    border-bottom: 1px solid #dadada;
   }
 .active {
     border-bottom: 1px solid #FFFEFB;
