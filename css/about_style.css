@@ -39,20 +39,19 @@ thead th{
     text-transform: uppercase;
     border-bottom: 2px solid black;
 }
-thead th{
-    border-bottom: 2px solid black;
-    transition: 0.2 all ease-in;
-}
 .table tbody, td{
     color: rgb(77, 77, 77);
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid rgb(77, 77, 77);
-    transition: 0.2s all ease-out;
 }
 .table a{
     text-decoration: none;
     color: rgb(77, 77, 77);
+}
+.table a{
+    color: rgb(77, 77, 77);
+    transition: 0.2s all ease-out;
 }
 .table a:hover{
     color: black;
