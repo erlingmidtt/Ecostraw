@@ -49,13 +49,9 @@ thead th{
     text-decoration: none;
     color: rgb(77, 77, 77);
 }
-.table a{
-    color: rgb(77, 77, 77);
-    transition: 0.2s all ease-out;
-}
+
 .table a:hover{
     color: black;
-    transition: 0.2s all ease-in;
 }
 .contact-us p, a{
     text-decoration: none;
