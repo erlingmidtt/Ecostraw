@@ -26,13 +26,15 @@ nav a {
     font-weight: 650;
     color: #FFFEFB;
     padding: 2px;
-    transition: all 0.3s ease-out;
     text-transform: uppercase;
 }
+nav a {
+    color: #FFFEFB;
+    transition: all 0.3s ease-out;
+}
 nav a:hover{
-    color: rgb(180, 180, 180);
-    transition: all 0.1s ease-in;
-    border-bottom: 1px solid rgb(180, 180, 180);
+    transition: all 0.2s ease-in;
+    border-bottom: 1px solid #FFFEFB;
   }
 .active {
     border-bottom: 1px solid #FFFEFB;
