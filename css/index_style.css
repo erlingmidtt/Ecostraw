@@ -43,9 +43,12 @@ cursor: default;
     text-decoration: none;
     color: black;
     font-size: 1.3vw;
-    transition: all 0.1s ease-out;
     padding: 6px;
     border-radius: 3px;
+}
+.links a{
+    color: black;
+    transition: all 0.1s ease-out;
 }
 .links a:hover{
     color: rgb(255, 255, 255);
