@@ -49,7 +49,6 @@ thead th{
 .table a{
     text-decoration: none;
     color: rgb(77, 77, 77);
-    transition: 0.2s all ease-out;
 }
 .table a:hover{
     color: black;
